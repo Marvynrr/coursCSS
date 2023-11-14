@@ -1,0 +1,125 @@
+body {
+    background: url('etoile.jpg');
+    font-family: 'Homemade Apple', cursive;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    background-color: chartreuse;
+}
+.texte{
+    margin: 25px 50px;
+    padding: 30px;
+    border: 2px solid black;
+    background-color: rgb(217, 0, 255);
+}
+h1, h2, h3{
+    background-color: black;
+    color: white;
+}
+.titre {
+    font-size: 25px;
+    color: red;
+}
+#titre3 {
+    color: darkorange;
+}
+.moche {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 800px;
+    background-image: url(shelbygt350.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@keyframes moveRight {
+    from {
+        transform: translateX(100);
+    }
+    to {
+        transform: translateX(750px);
+    }    
+}
+.boxed {
+    background-color: chocolate;
+    animation: moveRight 2s ease infinite alternate;
+}
+.button {
+    background-color: blue;
+    transition: background-color 0.3s ease;
+}
+.button:hover{
+    color: aqua;
+}
+.button {
+    cursor: pointer;
+}
+.triangle {
+    margin: auto;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid blue;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.solid {   
+    border-style: solid;
+    margin: auto;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('jf.png');
+    background-size: cover;
+    background-position: center;
+  }
+:root {
+    --main-color: #3498db;
+}
+.button {
+    background-color: var(--main-color);
+    transition: background-color 4s ease;
+}
+.button:hover {
+    background-color: blue;
+}
+.box {
+    transition:
+    width 1s,
+    height 1s,
+    background 10s,
+      transform 1s;
+  }
+  
+  .box:hover {
+      background: url('etoile.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: rotate(360deg);
+    border-bottom:solid #ffcccc;
+}
+.boxe {
+    transition:
+    width 1s,
+    height 1s,
+      background-color 4s,
+      transform 1s;
+  }
+  
+  .boxe:hover {
+    background-color: #ffcccc;
+    transform: rotate(-360deg);
+    border-bottom:100px solid #ffcccc;
+  }
+  @media (max-width:750px){
+    body{
+        background-color: aqua !important;
+    }
+        .boxed{
+        display: none;
+        }
+    }
