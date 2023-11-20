@@ -1,0 +1,13 @@
+ul {
+    color: red;
+}
+.item:nth-of-type(2){
+    font-weight: bold;
+}
+.item {
+    border: 1px solid;
+}
+a {
+    background-color: black;
+    color: white;    
+}

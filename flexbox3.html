@@ -1,0 +1,37 @@
+<!-- Mise en page Centrée Verticalement et Horizontalement -->
+<!-- Cet exemple utilise align-items: center et justify-content:
+     center pour centrer verticalement et horizontalement 
+     l'élément enfant dans le conteneur.
+ -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+        a {
+    background-color: black;
+    color: white;    
+}
+    </style>
+    <title>Centrer avec Flexbox</title>
+    <a href="index.html">Retour</a>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>    
+</body>
+</html>

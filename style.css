@@ -1,14 +1,11 @@
 body {
-    background: url('etoile.jpg');
-    font-family: 'Homemade Apple', cursive;
+    overflow-x: hidden;
+    background: url('etoile.jpg') 100%;
     margin: 0;
     padding: 0;
     color: rgb(255, 255, 255);
     background-size: cover;
     background-position: center;
-}
-.container{
-    background-color: chartreuse;
 }
 .texte{
     margin: 25px 50px;
@@ -21,17 +18,18 @@ h1, h2, h3{
     color: white;
 }
 .titre {
+    font-family: 'Homemade Apple', cursive;
     font-size: 25px;
     color: red;
 }
 #titre3 {
     color: darkorange;
 }
-.moche {
+.shelby {
     margin: 0 auto;
-    width: 80%;
-    min-height: 800px;
     background-image: url(shelbygt350.jpg);
+    height: auto;
+    width: auto;
     background-size: cover;
     background-position: center;
 }
@@ -73,12 +71,12 @@ h1, h2, h3{
     display: block;
     width: 100px;
     height: 100px;
-    background: url('jf.png');
+    background: url('etoile.jpg');
     background-size: cover;
     background-position: center;
   }
 :root {
-    --main-color: #3498db;
+    --main-color: rgb(255, 255, 255);
 }
 .button {
     background-color: var(--main-color);
@@ -96,7 +94,7 @@ h1, h2, h3{
   }
   
   .box:hover {
-      background: url('etoile.jpg');
+      background: url('jf.png');
     background-size: cover;
     background-position: center;
     transform: rotate(360deg);
@@ -122,4 +120,13 @@ h1, h2, h3{
         .boxed{
         display: none;
         }
+    }
+    .grid-contenair, a, div {
+        grid-template-columns: 5;
+        grid-template-rows: 9;
+    }
+    a, div {
+        display: flex;
+        position: center;
+        background-color: orange;
     }

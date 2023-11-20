@@ -1,0 +1,11 @@
+/* exercice 4 */
+.container > p {
+    color: green;
+}
+.container > * {
+    font-weight: bold;
+}
+a {
+    background-color: black;
+    color: white;    
+}

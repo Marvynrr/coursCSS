@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Deux colonnes, la première prend 1 fraction, la deuxième prend 2 fractions */
+    grid-template-rows: auto auto auto; /* Trois lignes de hauteur automatique */
+    grid-gap: 20px; /* Espacement entre les items */
+    grid-template-areas:
+    "header header"
+    "sidebar main"
+    "footer footer";
+}
+header, footer {
+    grid-area: header / span 2; /* L'élément occupe deux colonnes */
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+footer {
+    grid-area: footer / span 2;
+}
+.grid-item {
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: 10px;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.main {
+    grid-area: main;
+}

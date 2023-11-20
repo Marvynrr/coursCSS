@@ -1,0 +1,14 @@
+/* Exercice 7 */
+.box {
+    margin: auto;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    height: 150px;
+    width: 150px;
+    border: solid 2px;
+    background-color: red;
+}
+a {
+    background-color: black;
+    color: white;    
+}

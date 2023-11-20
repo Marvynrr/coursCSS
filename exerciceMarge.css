@@ -1,0 +1,22 @@
+/* Exercice 8 */
+.box1 {
+    height: 50px;
+    width: 50px;
+    border: solid blue 10px;
+    background-color: black;
+    margin-inline-end: 30px;
+}
+.box2 {
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+}
+.container {
+    display: flex;
+    margin-top: 10px;   
+}
+a {
+    background-color: black;
+    color: white;
+}

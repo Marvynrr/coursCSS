@@ -1,0 +1,11 @@
+/* exercice 3 */
+div > h2 {
+    color: blue;
+}
+div > ul {
+    font-weight: bold;
+}
+a {
+    background-color: black;
+    color: white;    
+}

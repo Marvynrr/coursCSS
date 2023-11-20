@@ -1,0 +1,38 @@
+<!-- Mise en Page Simple avec Flexbox -->
+<!-- Dans cet exemple, les éléments enfants de la classe .
+    container sont disposés avec un espacement équitable autour 
+    d'eux grâce à justify-content: space-around.
+ -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+        
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin: 10px;
+        }
+        a {
+    background-color: black;
+    color: white;    
+}
+        </style>
+        <title>Flexbox Exemple</title>
+    <a href="index.html">Retour</a>
+</head>
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+</body>
+</html>
